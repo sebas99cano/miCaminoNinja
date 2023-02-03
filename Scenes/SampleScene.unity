@@ -32733,6 +32733,7 @@ MonoBehaviour:
   velocity: 2
   awaitTime: 10
   isWaiting: 0
+  forceStop: 0
   direction: 1
 --- !u!61 &889564415
 BoxCollider2D:
@@ -34300,9 +34301,9 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -50383,6 +50384,7 @@ MonoBehaviour:
   dialogPanel: {fileID: 1746791013}
   npcIcon: {fileID: 949307302}
   npcName: {fileID: 1591164662}
+  npcChat: {fileID: 1087394720}
 --- !u!4 &1402381902
 Transform:
   m_ObjectHideFlags: 0

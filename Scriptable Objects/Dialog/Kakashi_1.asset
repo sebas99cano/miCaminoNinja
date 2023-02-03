@@ -19,4 +19,5 @@ MonoBehaviour:
   salute: Hola Naruto!
   Conversation:
   - Sentence: "Te sugiero ir al bosque, quien sabe, podr\xEDas encontrar algo interesante"
+  - Sentence: En realidad no tienes muchas opciones, debes ir para poder continuar.
   goodbye: Pronto continuaremos el entrenamiento, nos vemos!

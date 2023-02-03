@@ -15,7 +15,7 @@ public class NPCInteraction : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            npcMovement.isWaiting=true;
+            npcMovement.forceStop=true;
             DialogManager.Instance.NpcDisposable = this;
             npcButtonInteract.SetActive(true);
         }
@@ -25,7 +25,8 @@ public class NPCInteraction : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            npcMovement.isWaiting = false;
+            npcMovement.forceStop = false;
+            DialogManager.Instance.OpenCloseDialogPanel(false);
             DialogManager.Instance.NpcDisposable = null;
             npcButtonInteract.SetActive(false);
         }

@@ -20,6 +20,7 @@ public class WaypointMovement : MonoBehaviour
     private int _actualPointIndex;
     protected Vector3 LastPosition;
     public bool isWaiting = false;
+    public bool forceStop = false;
 
 
     void Start()
@@ -35,7 +36,7 @@ public class WaypointMovement : MonoBehaviour
         RotateCharacter();
         RotateVerticalCharacter();
         IdleCharacter();
-        if (!isWaiting)
+        if (!isWaiting && !forceStop)
         {
             MoveCharacter();
             if (CheckPointArrived())
