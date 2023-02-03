@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c6864410d11b246aae79a498af1d15, type: 3}
+  m_Name: Kakashi_1
+  m_EditorClassIdentifier: 
+  nameNPC: Kakashi
+  icon: {fileID: 21300000, guid: eea9a05a112c2d745b5e092291ab48c2, type: 3}
+  hasInteractionExtra: 0
+  interactionExtra: 0
+  salute: Hola Naruto!
+  Conversation:
+  - Sentence: "Te sugiero ir al bosque, quien sabe, podr\xEDas encontrar algo interesante"
+  goodbye: Pronto continuaremos el entrenamiento, nos vemos!
